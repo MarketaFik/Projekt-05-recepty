@@ -131,6 +131,11 @@ body {
         padding: 20px;
     }
 
+    .recepty {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .recept {
         width: calc(100vw / 2);
@@ -150,57 +155,37 @@ body {
 
 /*desktop*/
 @media (min-width: 960px) {
-    .hlavni-recept {
-        min-height: 400px;  
-        padding: 20px;
-        width: calc(100vw / 3);
-        box-sizing: border-box;
+
+    .doporucujeme{
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     .recepty {
-        width: ((2 / 3) * 100vw);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .hlavni-recept {
+        width: 70vw;
         box-sizing: border-box;
-        position: relative;
-    }
-
-    .recept2 {
-        width: 50%;
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    .recept3 {
-        width: 50%;
-        position: absolute;
-        top: 0;
-        right: 0;
-    }
-
-    .recept4 {
-        width: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    }
-
-    .recept5 {
-        width: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        }
-
-    .recept {
-        min-height: 200px;
+        min-height: 400px;
         padding: 20px;
-    }
+      }
 
-    .recept-nazevD {
+      .recept {
+        width: calc(60vw / 2);
+        box-sizing: border-box;
+        min-height: 150px;
+        padding: 20px;
+      }
+
+      .recept-nazevD {
         font-size: 48px;
-    }
+      }
 
-    .recept-nazev {
+      .recept-nazev {
         font-size: 28px;
+      }
     }
-}
