@@ -164,7 +164,7 @@ body {
     .recepty {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: normal;
       }
 
       .hlavni-recept {
